@@ -9,10 +9,13 @@
       color: #272626;
       margin: 0;
       padding: 0;
+      width: 21cm;
+      height: 29.7cm;
     }
     .header {
       background-color: #dddddd;
       padding: 10px;
+      text-align: center;
     }
     .name {
       font-size: 24pt;
@@ -22,41 +25,20 @@
       font-size: 16pt;
       font-style: italic;
     }
-    .contact {
-      margin-bottom: 20px;
-    }
     .contact img {
       width: 25px;
       height: 25px;
       margin-right: 5px;
-    }
-    .about-me {
-      float: left;
-      width: 40%;
-      background-color: #f9f9f9;
-      padding: 10px;
-    }
-    .work-experience {
-      float: right;
-      width: 55%;
-      padding: 10px;
+      vertical-align: middle;
     }
     .section {
       margin-bottom: 20px;
+      padding: 10px;
     }
     .section h3 {
       margin-top: 0;
     }
-    .skills,
-    .languages,
-    .strengths {
-      float: left;
-      width: 30%;
-      margin-right: 3%;
-      background-color: #f9f9f9;
-      padding: 10px;
-    }
-    .section ul {
+    ul {
       list-style-type: none;
       padding-left: 0;
     }
@@ -67,17 +49,19 @@
     <p class="name">ENZO BUDASOFF</p>
     <p class="degree">ECONOMICS DEGREE</p>
     <div class="contact">
-      <span><img src="images/image1.png" alt="Phone">+5491121547429</span>
-      <span><img src="images/image2.png" alt="Email">enzobudasoff@gmail.com</span>
+      <img src="phone.png" alt="Phone">
+      <span>+5491121547429</span>
+      <img src="email.png" alt="Email">
+      <span>enzobudasoff@gmail.com</span>
     </div>
   </div>
 
-  <div class="about-me section">
+  <div class="section">
     <h3>About Me</h3>
     <p>A highly adaptable and versatile professional, capable of seamlessly fitting into diverse work environments and collaborating effectively within varied teams. Eagerly pursues new challenges to promote ongoing personal and professional development.</p>
   </div>
 
-  <div class="work-experience section">
+  <div class="section">
     <h3>Experience</h3>
     <div class="work">
       <p><strong>Head of Operations</strong></p>
@@ -88,7 +72,7 @@
     </div>
   </div>
 
-  <div class="skills section">
+  <div class="section">
     <h3>Skills</h3>
     <ul>
       <li>Microsoft Office</li>
@@ -97,7 +81,7 @@
     </ul>
   </div>
 
-  <div class="languages section">
+  <div class="section">
     <h3>Languages</h3>
     <ul>
       <li>Spanish - Native</li>
@@ -106,7 +90,7 @@
     </ul>
   </div>
 
-  <div class="strengths section">
+  <div class="section">
     <h3>Strengths</h3>
     <ul>
       <li>Leadership</li>
